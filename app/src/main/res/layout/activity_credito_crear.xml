@@ -18,12 +18,6 @@
             android:background="@color/colorPrimary"
             android:elevation="8dp">
 
-            <ImageButton
-                android:layout_width="60dp"
-                android:layout_height="49dp"
-                android:src="@drawable/ic_arrow_back_black_24dp">
-
-            </ImageButton>
         </RelativeLayout>
 
         <TextView
