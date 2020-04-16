@@ -7,6 +7,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Toast;
 
+import com.papo.sharoapp.acciones.CrearCreditoActivity;
 import com.papo.sharoapp.fragments.CrearCreditoFragment;
 import com.papo.sharoapp.fragments.InicioFragment;
 import com.papo.sharoapp.interfaces.IComunicaFragments;
@@ -28,7 +29,8 @@ public class MainActivity extends AppCompatActivity implements IComunicaFragment
     @Override
     public void crearCredito() {
         //Toast.makeText(getApplicationContext(),"Se ingresa credito", Toast.LENGTH_SHORT).show();
-        Intent intent = new Intent(this, CrearCreditoFragment.class);
+        Intent intent = new Intent(this, CrearCreditoActivity.class);
+        startActivity(intent);
 
     }
 
